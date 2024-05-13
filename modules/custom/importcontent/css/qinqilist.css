@@ -1,0 +1,25 @@
+a.addmore{
+    width: 100%;
+    color: #FFF;
+    background-color: #e64630;
+    border: none;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    margin: 40px 0 0;
+}
+.content h4{
+	margin: 30px 0 20px;
+	text-align: center;
+}
+.btn-default.active, .btn-default:active {
+    width: 100%;
+    color: #FFF !important;
+    background-color: #e64630 !important;
+    border: none;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    margin: 40px 0 0;
+    color: #fff !important;
+}

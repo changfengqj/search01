@@ -1,0 +1,23 @@
+uuid: bdd31b91-be63-4d48-9414-a5149922f3e1
+langcode: en
+status: true
+dependencies: {  }
+name: front_images_500x500
+label: 'front images 400*300'
+effects:
+  bb730c3d-5a6d-4dd8-92cd-2f25db4deb2a:
+    uuid: bb730c3d-5a6d-4dd8-92cd-2f25db4deb2a
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 400
+      height: 300
+      anchor: center-center
+  f42d456a-1170-47e5-9b98-bd2dbe842429:
+    uuid: f42d456a-1170-47e5-9b98-bd2dbe842429
+    id: image_scale
+    weight: -10
+    data:
+      width: 400
+      height: 300
+      upscale: true

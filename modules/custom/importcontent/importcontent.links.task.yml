@@ -1,0 +1,4 @@
+importcontent.import:
+  route_name: importcontent.import
+  title: 导入数据
+  base_route: system.admin_content

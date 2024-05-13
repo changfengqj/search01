@@ -1,0 +1,4 @@
+importcontent.import:
+  title: 导入数据
+  route_name: importcontent.import
+  parent: system.admin_content

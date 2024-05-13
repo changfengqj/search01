@@ -1,0 +1,52 @@
+uuid: 27a02923-306c-4097-8540-83e4e2b714e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.body
+    - field.field.node.page.field_artists_engravers
+    - field.field.node.page.field_condition
+    - field.field.node.page.field_detail_url
+    - field.field.node.page.field_fenlei
+    - field.field.node.page.field_images
+    - field.field.node.page.field_main_pic
+    - field.field.node.page.field_medium
+    - field.field.node.page.field_no
+    - field.field.node.page.field_price
+    - field.field.node.page.field_size
+    - field.field.node.page.field_subject
+    - node.type.page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
+id: node.page.teaser
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  links:
+    weight: 101
+    region: content
+hidden:
+  field_artists_engravers: true
+  field_condition: true
+  field_detail_url: true
+  field_fenlei: true
+  field_images: true
+  field_main_pic: true
+  field_medium: true
+  field_no: true
+  field_price: true
+  field_size: true
+  field_subject: true

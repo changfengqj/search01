@@ -1,0 +1,23 @@
+uuid: 4f417623-4c7c-4785-b688-1311b8171f11
+langcode: en
+status: true
+dependencies: {  }
+name: product_detail_500_500
+label: 'product detail 500*500'
+effects:
+  34e18824-07d1-4716-80e0-9f271bf2d913:
+    uuid: 34e18824-07d1-4716-80e0-9f271bf2d913
+    id: image_scale
+    weight: 1
+    data:
+      width: 500
+      height: 500
+      upscale: true
+  95fab6fe-4fbb-42b7-9d4a-e7c1a5b5949a:
+    uuid: 95fab6fe-4fbb-42b7-9d4a-e7c1a5b5949a
+    id: image_crop
+    weight: 2
+    data:
+      width: 500
+      height: 500
+      anchor: center-center

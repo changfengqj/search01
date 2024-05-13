@@ -1,0 +1,76 @@
+price:
+  name: price
+  label: Price
+  type: string
+  force: true
+  bundles:
+    page:
+      label: price
+
+
+detail_url:
+  name: detail_url
+  label: detail url
+  type: string
+  force: true
+  bundles:
+    page:
+      label: detail url
+
+
+subject:
+  name: subject
+  label: subject
+  type: string
+  force: true
+  bundles:
+    page:
+      label: subject
+
+condition:
+  name: condition
+  label: condition
+  type: string
+  force: true
+  bundles:
+    page:
+      label: condition
+
+
+medium:
+  name: medium
+  label: medium
+  type: string
+  force: true
+  bundles:
+    page:
+      label: medium
+
+size:
+  name: size
+  label: size
+  type: string
+  force: true
+  bundles:
+    page:
+      label: size
+
+
+number:
+  name: number
+  label: No.
+  type: string
+  force: true
+  bundles:
+    page:
+      label: No.
+
+description:
+  name: description
+  label: description
+  type: string
+  force: true
+  bundles:
+    page:
+      label: description
+

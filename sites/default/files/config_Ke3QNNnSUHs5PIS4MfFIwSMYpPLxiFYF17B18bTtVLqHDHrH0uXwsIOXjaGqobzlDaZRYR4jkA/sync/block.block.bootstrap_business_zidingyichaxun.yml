@@ -1,0 +1,25 @@
+uuid: a73f84dc-7414-4016-a5aa-c0d9b674a15d
+langcode: en
+status: true
+dependencies:
+  module:
+    - commblock
+    - system
+  theme:
+    - bootstrap_business
+id: bootstrap_business_zidingyichaxun
+theme: bootstrap_business
+region: banner
+weight: 0
+provider: null
+plugin: frontBlock
+settings:
+  id: frontBlock
+  label: 自定义查询
+  label_display: '0'
+  provider: commblock
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /product-list/search

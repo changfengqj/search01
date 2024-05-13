@@ -1,0 +1,10 @@
+<?php
+function commblock_theme($existing, $type, $theme, $path) {
+  return [
+    'front_video' => [
+      'variables' => [
+        'videourl' => NULL,
+      ],
+    ],
+  ];
+}

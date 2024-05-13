@@ -1,0 +1,20 @@
+uuid: c48fe5f6-570f-44c6-91a3-746369db2c7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - commblock
+  theme:
+    - bootstrap_business
+id: bootstrap_business_zuoshangjiaoyonghuming
+theme: bootstrap_business
+region: header_top_right
+weight: 0
+provider: null
+plugin: username_block
+settings:
+  id: username_block
+  label: 左上角用户名
+  label_display: '0'
+  provider: commblock
+visibility: {  }

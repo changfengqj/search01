@@ -1,0 +1,12 @@
+name: 导入功能
+type: module
+description: '导入数据'
+package: Custom
+# core: 8.x
+dependencies:
+  - drupal:node
+# Information added by Drupal.org packaging script on 2019-08-11
+version: '8.x-1.0'
+core_version_requirement: ^8.8.0 || ^9 || ^10
+project: 'importcontent'
+datestamp: 1565542690

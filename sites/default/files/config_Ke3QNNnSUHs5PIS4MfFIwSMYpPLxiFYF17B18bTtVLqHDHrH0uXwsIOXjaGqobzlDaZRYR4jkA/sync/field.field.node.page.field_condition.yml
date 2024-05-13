@@ -1,0 +1,22 @@
+uuid: 89d7557e-a8af-4c8a-b989-98f792076d9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_condition
+    - node.type.page
+  module:
+    - text
+id: node.page.field_condition
+field_name: field_condition
+entity_type: node
+bundle: page
+label: condition
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

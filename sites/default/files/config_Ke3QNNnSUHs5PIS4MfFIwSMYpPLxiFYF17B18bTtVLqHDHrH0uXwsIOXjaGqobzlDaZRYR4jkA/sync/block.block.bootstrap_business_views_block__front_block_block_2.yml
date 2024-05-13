@@ -1,0 +1,29 @@
+uuid: 5acd1150-bdb2-425a-bd0c-a321161df2f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.front_block
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_business
+id: bootstrap_business_views_block__front_block_block_2
+theme: bootstrap_business
+region: front_content2
+weight: 0
+provider: null
+plugin: 'views_block:front_block-block_2'
+settings:
+  id: 'views_block:front_block-block_2'
+  label: ' Travel and Transportation'
+  label_display: visible
+  provider: views
+  views_label: ' Travel and Transportation'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

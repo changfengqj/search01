@@ -1,0 +1,40 @@
+h1.js-quickedit-page-title.page-title{
+	font-weight: normal;
+    color: #333;
+    font-size: 1.8rem;
+    width: 100%;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: normal;
+    margin-bottom: 1.2rem;
+    word-break: break-all;
+    margin-top: 2.5rem;
+}
+form.join-form{}
+form.join-form label,
+form.join-form .fieldset-legend{
+	font-weight: normal;
+}
+form.join-form input{
+	font-size: 13px;
+}
+form.join-form .form-type-checkbox,
+form.join-form .form-type-radio{
+	display: inline-block;
+	margin-right: 8px;
+	font-size: 13px;
+}
+form.join-form #edit-actions{}
+form.join-form #edit-actions input{
+	width: 100%;
+	color: #FFF;
+	background-color: #e64630;
+	border: none;
+	line-height: 30px;
+}
+form.join-form .form-textarea-wrapper textarea{
+	font-size: 13px;
+}
+form.join-form .red input{
+	border-color: red;
+}

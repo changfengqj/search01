@@ -1,0 +1,10 @@
+name: 公共区块
+type: module
+description: BLOCKS
+package: Custom
+dependencies:
+  - drupal:node
+version: '8.x-1.0'
+core_version_requirement: ^8.8.0 || ^9 || ^10
+project: 'commblock'
+datestamp: 1565542690

@@ -1,0 +1,19 @@
+uuid: d37cc125-b3e1-43a9-b359-0118623481c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_artists_engravers
+    - node.type.page
+id: node.page.field_artists_engravers
+field_name: field_artists_engravers
+entity_type: node
+bundle: page
+label: 'artists engravers'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

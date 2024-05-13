@@ -1,0 +1,6 @@
+importcontent.import:
+  path: '/admin/content/import'
+  defaults:
+     _form:  '\Drupal\importcontent\Form\importcontentForm'
+  requirements:
+    _permission: 'importcontent'

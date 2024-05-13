@@ -1,0 +1,31 @@
+slick:
+  version: 1.x
+  css:
+    base:
+      slick/slick.css: {}
+      slick/slick-theme.css: {}
+  js:
+    js/jquery-2.2.0.min.js: {}
+    slick/slick.min.js: {}
+    slick/slick-c.js: {}
+    
+flexslider:
+  version: 1.x
+  css:
+    component:
+      css/flexslider.css: {}
+      css/flexslider-rtl-min.css: {}
+      css/front_slider.css: {}
+  js:
+    js/jquery.flexslider-min.js: {}
+    js/flexslider-custom.js: {}
+
+footer2Block:
+  version: 1.x
+  js:
+    js/footer2Block.js: {}
+
+fenleimenu:
+  version: 1.x
+  js:
+    js/fenleimenu.js: {}

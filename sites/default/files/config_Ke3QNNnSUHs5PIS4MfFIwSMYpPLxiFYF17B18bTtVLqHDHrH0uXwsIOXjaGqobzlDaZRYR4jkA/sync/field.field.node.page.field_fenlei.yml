@@ -1,0 +1,29 @@
+uuid: 6e26fabd-7732-4bd6-834a-0fbaa67c7fea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fenlei
+    - node.type.page
+    - taxonomy.vocabulary.fenlei
+id: node.page.field_fenlei
+field_name: field_fenlei
+entity_type: node
+bundle: page
+label: 分类
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fenlei: fenlei
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
